@@ -1,0 +1,10 @@
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\bin\Debug\netcoreapp1.1\BandTracker.deps.json
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\bin\Debug\netcoreapp1.1\BandTracker.runtimeconfig.json
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\bin\Debug\netcoreapp1.1\BandTracker.runtimeconfig.dev.json
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\bin\Debug\netcoreapp1.1\BandTracker.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\bin\Debug\netcoreapp1.1\BandTracker.pdb
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\obj\Debug\netcoreapp1.1\BandTracker.csproj.CoreCompileInputs.cache
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\obj\Debug\netcoreapp1.1\BandTracker.AssemblyInfoInputs.cache
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\obj\Debug\netcoreapp1.1\BandTracker.AssemblyInfo.cs
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\obj\Debug\netcoreapp1.1\BandTracker.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker\obj\Debug\netcoreapp1.1\BandTracker.pdb

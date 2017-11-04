@@ -1,0 +1,31 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Band Profile</h1>
+
+<h3>Name: @Model["venue"].GetVenueName()</h3>
+<h3>ID: @Model["venue"].GetId()</h3>
+<h3>Played Bands:<br>
+  @foreach (var band in @Model["venue"].GetBands())
+  {
+    @band.GetBandName()<br>
+  }</h3>
+
+<form class="form-group" action="/venue/@Model["venue"].GetId()/venue/update" method="post">
+  <label for="select-bands">Select Bands:</label>
+  <select class="form-control" name="select-bands">
+
+    @foreach (var bandPlayed in Model["bands"])
+    {
+      @if(Model["venue"].GetBands().Contains(bandPlayed) == false)
+      {
+        <option value="@bandPlayed.GetId()">@bandPlayed.GetBandName()</option>
+      }
+    }
+
+  </select>
+  <button type="submit" name="button">Add Bands</button>
+</form>
+
+<a href="/venue/view-all">View All Venues</a>

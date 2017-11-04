@@ -1,0 +1,15 @@
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\obj\Debug\netcoreapp1.1\BandTracker.Tests.csproj.CoreCompileInputs.cache
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\obj\Debug\netcoreapp1.1\BandTracker.Tests.AssemblyInfoInputs.cache
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\obj\Debug\netcoreapp1.1\BandTracker.Tests.AssemblyInfo.cs
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\BandTracker.Tests.deps.json
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\BandTracker.Tests.runtimeconfig.json
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\BandTracker.Tests.runtimeconfig.dev.json
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\BandTracker.Tests.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\BandTracker.Tests.pdb
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\BandTracker.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\bin\Debug\netcoreapp1.1\BandTracker.pdb
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\obj\Debug\netcoreapp1.1\BandTracker.Tests.dll
+C:\Users\srava\Desktop\BandTracker.Solutions\BandTracker.Tests\obj\Debug\netcoreapp1.1\BandTracker.Tests.pdb
