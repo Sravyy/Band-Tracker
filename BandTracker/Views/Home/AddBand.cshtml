@@ -2,13 +2,17 @@
   Layout = "_Layout";
 }
 
+<div class="jumbotron jumbotron-fluid">
+  <div class="container container-fluid">
+    <h1>Add a Band</h1>
+  </div>
+</div>
 
-<h1>Add a Band</h1>
 
-<form action="/band/view-all" method="post">
-  <label for="band-name">Name</label>
-  <input type="text" name="band-name"><br>
-  <button type="submit" name="button">Add a Band</button>
-</form>
+  <form action="/band/view-all" method="post">
+    <label for="band-name">Name</label>
+    <input type="text" name="band-name">
+    <button type="submit" name="button">Add a Band</button>
+  </form>
 
-<a href="/band/view-all">View All Bands</a>
+  <a href="/band/view-all">View All Bands</a>

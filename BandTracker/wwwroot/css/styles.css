@@ -37,7 +37,9 @@ html, body {
   color: white;
   margin-top: 15%;
 }
-
+.jumbotron .jumbotron-fluid{
+  text-align: center;
+}
 table {
   margin-left: 5px;
 }
@@ -62,19 +64,15 @@ a {
   margin-left: 20px;
   color: red;
 }
-/*.form-control {
+
+.form-control {
   width: 50%;
-}*/
-/*h1
+}
+h1
 {
   text-align: center;
-}*/
-
-/*nav{*/
-  /*text-align: center;*/
-  /*margin-left: 40%;
-  font-size: 30px;
 }
+
 .home{
   font-size: 25px;
   font-weight: bold;
@@ -84,4 +82,4 @@ i{
 }
 tbl {
   font-size: 20px;
-}*/
+}

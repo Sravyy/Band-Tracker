@@ -2,11 +2,17 @@
   Layout = "_Layout";
 }
 
-<h1>Add a Venue</h1>
-<form action="/venue/view-all" class="form-group" method="post">
-  <label for="venue-name">Venue Name:</label>
-  <input type="text" name="venue-name" class="form-control"><br>
-  <button type="submit" class="btn btn-info" name="button">Add a Venue</button>
-</form>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container container-fluid">
+    <h1>Add a venue</h1>
+  </div>
+</div>
 
-<a href="/">Home Page</a>
+
+  <form action="/venue/view-all" class="form-group" method="post">
+    <label for="venue-name">Venue Name:</label>
+    <input type="text" name="venue-name" class="form-control">
+    <button type="submit" class="btn btn-info" name="button">Add a Venue</button>
+  </form>
+
+  <a href="/">Home Page</a>
