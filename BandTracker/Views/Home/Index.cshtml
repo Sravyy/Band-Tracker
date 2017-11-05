@@ -8,10 +8,46 @@
       <a class="btn" href="#">Get Started</a>
     </div>
   </div>
+  </section>
+  <br>
 
-</section>
+  <div >
+    <a class="links" href="/band/add">Add a Band</a> |
+    <a href="/band/view-all">View All Bands</a> |
+    <a href="/venue/add">Add a Venue</a> |
+    <a href="/venue/view-all">View All Venues</a>
+  </div>
+<br>
+  <div class="container-fluid">
+      @if (@Model["band"].Count == 0)
+      {
+        <h3>No bands have been added yet!</h3>
+      }
+      <table>
+        <tr>
+          <th><u><strong>No.</strong></u></th>
+          <th><u><strong>All Bands</strong></u></th>
+          <th><u><strong>All Venues</strong></u></th>
+        </tr>
 
-<a href="/band/add">Add a Band</a><br>
-<a href="/band/view-all">View All Bands</a><br>
-<a href="/venue/add">Add a Venue</a><br>
-<a href="/venue/view-all">View All Venues</a>
+        @{
+           int i =1;
+        foreach (var band in @Model["band"])
+        {
+          <tr>
+          <th>@i</th>
+          <th>@band.GetBandName()</th>
+          <th>
+          @foreach(var venue in @Model["venue"])
+          {
+            @venue.GetVenueName() <br>;
+          }
+          </th>
+          </tr>
+          i++;
+        }
+      }
+      </table>
+    </div>
+    <br>
+    <br>

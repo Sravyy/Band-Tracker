@@ -11,7 +11,14 @@ namespace BandTracker.Controllers
     [HttpGet("/")]
     public ActionResult Index()
     {
-      return View();
+      Dictionary<string, object> model = new Dictionary<string, object>();
+      List<Band> allBands = Band.GetAll();
+      List<Venue> allVenues = Venue.GetAll();
+
+      model.Add("band",allBands);
+      model.Add("venue",allVenues);
+
+      return View(model);
     }
 
     [HttpGet("/band/add")]
