@@ -1,33 +1,65 @@
-body {
-  background-color: #e5e5e5;
-  color: #5e5e5e;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  /*background-color: #e5e5e5;
+  color: #5e5e5e;*/
   font-size: 20px;
+  font-family: 'Lobster', cursive;
+}
+.intro{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image:
+  linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url("http://i.ebayimg.com/images/g/pvIAAOSw-0xYQcWH/s-l1600.jpg");
+  display: table;
+  top: 0;
+  background-size: cover;
+  /*background: url(http://i.ebayimg.com/images/g/pvIAAOSw-0xYQcWH/s-l1600.jpg) no-repeat 50% 50%;*/
 }
 
+.intro .inner{
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+
+}
+
+.content{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+/*
 table {
   margin-left: 5px;
 }
 
 th,td {
   padding: 15px;
-  text-align: left;
+  /*text-align: left;*/
 }
 
-a {
+/*a {
   text-align: left;
-}
+}*/
 
-.form-control {
+/*.form-control {
   width: 50%;
-}
-h1
+}*/
+/*h1
 {
   text-align: center;
-}
+}*/
 
-nav{
-  text-align: center;
-  margin-left: 40%;
+/*nav{*/
+  /*text-align: center;*/
+  /*margin-left: 40%;
   font-size: 30px;
 }
 .home{
@@ -39,4 +71,4 @@ i{
 }
 tbl {
   font-size: 20px;
-}
+}*/
